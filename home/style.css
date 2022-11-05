@@ -1,0 +1,306 @@
+/* @font-face {
+    font-family: "Gill Sans";
+    src: url("./fonts/Gill-Sans.woff");
+}
+
+@font-face {
+    font-family: "Gill Sans Bold";
+    src: url('./fonts/Gill-Sans-Bold.woff');
+} */
+
+
+@font-face {
+    font-family: "Gill Sans";
+    src: url("https://res.cloudinary.com/rampver-financials/raw/upload/v1667045228/neo-website/fonts/Gill-Sans.woff");
+}
+
+@font-face {
+    font-family: "Gill Sans Bold";
+    src: url('https://res.cloudinary.com/rampver-financials/raw/upload/v1667045228/neo-website/fonts/Gill-Sans-Bold.woff');
+}
+
+
+html,
+body {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+
+.gs {
+    font-family: 'Gill Sans';
+}
+
+.font-rf-green {
+    font-family: 'Gill Sans';
+}
+
+.gsBold {
+    font-family: 'Gill Sans Bold'
+
+}
+
+.navbar {
+    background: linear-gradient(to right, #124735, #256141);
+    align-content: center;
+}
+
+.navbar-brand p {
+    color: #ffffff;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar-nav ul li a {
+    color: #ffffff;
+    font-size: 150%;
+    opacity: 100%;
+    font-family: 'Gill Sans';
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-dropdown{
+    background: linear-gradient(to right, #124735, #256141);
+    border: none;
+}
+
+.inqSM-Gold{
+    background-color: #cc942c;
+    height: 100vh;
+}
+
+.jumbotron-lg {
+    height: 95vh;
+    /* background-image: url("./img/new cover md.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-radius: 0px;
+    margin-bottom: 0;
+}
+
+.jumbotron-md {
+    height: 100vh;
+    /* background-image: url("./img/new cover.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-radius: 0px;
+    margin-bottom: 0;
+}
+
+.bannerBtn {
+    background: linear-gradient(to right, #124735, #256141);
+}
+
+.btn-big-lg {
+    font-size: 175%;
+    padding-top: 10;
+    padding-bottom: 10;
+    padding-left: 20;
+    padding-right: 20;
+}
+
+
+.btn-md {
+    font-size: 175%;
+    padding-top: 10;
+    padding-bottom: 10;
+    padding-left: 20;
+    padding-right: 20;
+}
+
+.banner-text {
+    color: #124735;
+    /* text-shadow: 1.5 !important; */
+    text-shadow: 1px 3px 2px rgba(0,0,0,0.1);
+}
+
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btns .rf-btn {
+    background-color: #256141;
+    color: #ffffff;
+    text-shadow: 0.5;
+    border: #ffffff;
+}
+
+.btns .img-btn {
+    background-color: #1A237E;
+    color: #fff;
+}
+
+.header-section h3 {
+    color: #124735;
+}
+
+.text-rampver {
+    color: #124735;
+}
+
+.bg-rampver {
+    background:#124735;
+}
+
+.text-gold {
+    color: #cc942c;
+}
+
+.intro,
+.faqs {
+    background: linear-gradient(to right, #124735, #256141);
+    padding-top: 3rem;
+    /* padding-bottom: 1rem; */
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-left: 0px;
+    width: 100% !important;
+}
+
+.learning-tools, .learning-tools-sm {
+    background: linear-gradient(to right, #124735, #256141);
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    margin-left: 0px;
+    width: 100% !important;
+}
+
+.icons-carousel {
+    width: 75px;
+}
+
+/* .logo-carousel-section {
+    height: 75vh;
+} */
+
+/* .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-left: 2rem;
+   
+  } */
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23124735' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+   
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23124735' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.white-button {
+    border-style: solid;
+    border-color: #cc942c;
+    border-width: 2px;
+}
+
+.white-border {
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 2px;
+}
+
+.why-rf-icons {
+    width: 110px;
+}
+
+.learning-tools-icons {
+    width: 80px;
+}
+
+.socmed-small {
+    width: 55px;
+}
+
+
+.faq-icons {
+    width: 40px;
+}
+
+
+@media (min-width: 992px) {
+    .why-rampver {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+}
+
+.logo-carousel-small {
+    width: 130px;
+}
+
+.logo-carousel {
+    width: 200px;
+}
+
+
+.indicator {
+    background-color: #124735 !important;
+    color: #124735 !important;
+    margin: 0rem 0 0 0 !important;
+    padding: 0 0 0 0 !important;
+}
+
+.sr-only {
+    background-color: #124735 !important;
+    color: #124735 !important;
+    margin: 0rem 0 0 0 !important;
+    padding: 0 0 0 0 !important;
+}
+
+.testimonial {
+    width: 175px;
+}
+
+.down-icon {
+    padding-top: 0.5rem;
+    width: 25px;
+    position: absolute;
+    right: 15px;
+}
+
+.reg-logos-icon {
+    width: 125px;
+}
+
+.bottombar {
+    background: linear-gradient(to right, #124735, #256141);
+}
+
+/* .footer-text{
+    background-color: #124735;
+    color: white;
+} */
+
+/* .icon-carousel-section, .logo-carousel-section  {
+    height: 100vh;
+} */
+
+/*# sourceMappingURL=style.css.map */

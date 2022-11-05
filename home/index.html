@@ -1,0 +1,1798 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#256141" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta property="og:site_name" content="Rampver Financials" />
+    <meta property="og:title" content="Rampver Financials | Empowering you for financial success." />
+    <meta property="og:description" content="Empowering you for financial success." />
+    <meta property="og:url" content="https://rampver.com/home" />
+    <meta property="og:image"
+        content="https://res.cloudinary.com/rampver-financials/image/upload/v1666610259/assets/meta-cover.png" />
+    <meta name="description" content="Empowering you for financial success." />
+    <meta property="og:site_name" content="Rampver Financials" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" src="./style.css" href="./style.css">
+    <link rel="icon"
+        href="https://res.cloudinary.com/rampver-financials/image/upload/v1666923361/neo-website/components/favicon.png"
+        type="image/png" sizes="16x20">
+    <title>Rampver Financials | Homepage</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TDNB9LX');
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <span id="navbarSet" class="sticky-top"></span>
+    <script src="../neo-components/navbar.js"></script>
+    <!-- navbar -->
+
+    <!-- start of banner -->
+    <div class="hero">
+        <div class="jumbotron-md d-md-none" id="jumbotron-md">
+
+            <div class="banner-text align-center">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1 class="text-center gsBold mx-2" style="font-size: 380%;">Empowering you for financial success.
+                </h1>
+                <br>
+                <div class="text-center mt-2">
+                    <br>
+                    <a class="btn btn-lg gsBold shadow text-white bannerBtn" style="font-size: 175%;"
+                        href="https://rampver.com/inquire/campaign.html?id=NHP-HG">Inquire now!</a>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron-lg d-none d-md-block" id="jumbotron-lg">
+            <div class="row m-0">
+                <div class="col-lg-7"></div>
+                <!-- <div class="col-lg-4"></div> -->
+                <div class="col-lg-5">
+                    <div class="banner-text">
+                        <br><br><br><br>
+                        <h1 class="text-center gsBold align-items-center mx-1 mt-4 gsBold" style="font-size: 410%;">
+                            Empowering you for financial success.</h1>
+                        <div class="text-center mt-2">
+                            <br>
+                            <a class="btn btn-big-lg gsBold gsBold text-white shadow bannerBtn"
+                                href="https://rampver.com/inquire/campaign.html?id=NHP-HG">Inquire now!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of banner -->
+    <!-- time change -->
+    <script>
+        var currentTime = new Date().getHours();
+        // console.log(currentTime)
+        if (0 <= currentTime && currentTime < 9) {
+            document.getElementById('jumbotron-md').style.backgroundImage =
+                "url('https://res.cloudinary.com/rampver-financials/image/upload/v1667028419/neo-website/homepage-covers/cover-3-md.webp')";
+            document.getElementById('jumbotron-lg').style.backgroundImage =
+                "url('https://res.cloudinary.com/rampver-financials/image/upload/v1667028420/neo-website/homepage-covers/cover-3.webp')";
+        } 
+        else if (9 <= currentTime && currentTime < 15) {
+            document.getElementById('jumbotron-md').style.backgroundImage =
+                "url('https://res.cloudinary.com/rampver-financials/image/upload/v1667028419/neo-website/homepage-covers/cover-2-md.webp')";
+            document.getElementById('jumbotron-lg').style.backgroundImage =
+                "url('https://res.cloudinary.com/rampver-financials/image/upload/v1667028419/neo-website/homepage-covers/cover-2.webp')";
+        } 
+        else {
+            document.getElementById('jumbotron-md').style.backgroundImage =
+                "url('https://res.cloudinary.com/rampver-financials/image/upload/v1667028419/neo-website/homepage-covers/cover-md.webp')";
+            document.getElementById('jumbotron-lg').style.backgroundImage =
+                "url('https://res.cloudinary.com/rampver-financials/image/upload/v1667028419/neo-website/homepage-covers/cover.webp')";
+        }
+    </script>
+    <!-- time change -->
+    <!-- start of vid section LG -->
+    <div class="intro d-none d-md-block">
+        <h3 class="text-white gsBold ml-3">WHO WE ARE</h3>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 m-0">
+                <div class="align-middle video-desc">
+                    <br>
+                    <br>
+                    <div class="mx-4">
+                        <h2 class="text-center gsBold mt-3 mx-2 container-fluid" style="color:#cc942c">Our mission is to
+                            help people fulfill their financial dreams.</h2>
+                        <br>
+                        <div class="container-fluid">
+                            <h4 class="text-justify text-white gs mx-4 mt-1">At Rampver, our thrust is to provide you an
+                                effective pathway towards financial wellness that is simple and easily embraced. By
+                                knowing
+                                you, we are able to design a personalized program that will give you the confidence to
+                                fulfill the financial success you've always dreamed of.</h4>
+                            <br>
+                            <br>
+
+                            <p id="outline-btn" class="text-center">
+                                <a href="https://rampver.com/company-primer" class="btn btn-lg gsBold white-button"
+                                    style="background-color: #ffffff; color:#124735">LEARN
+                                    MORE</a>
+                            </p>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 vidCon">
+                <div class="video-container align-middle mt-2" loading="lazy">
+                    <iframe class="white-border lazyload" src="https://www.youtube.com/embed/vY-wdye7ikM"
+                        srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+                        span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style>
+                        <a href=https://www.youtube.com/embed/vY-wdye7ikM?controls=0><img src=https://img.youtube.com/vi/vY-wdye7ikM/maxresdefault.jpg><span>▶</span></a>" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen>
+                    </iframe>
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+    <!-- end of vid section LG -->
+
+    <!-- start of vid section SM -->
+    <div class="intro d-md-none">
+        <h3 class="text-white gsBold text-center mb-0">WHO WE ARE</h3>
+        <div class="row mt-0">
+            <div class="col-lg-6 col-md-12 col-sm-12 mt-0">
+                <div class="">
+                    <br>
+                    <h3 class="text-center gsBold mt-3 container-fluid" style="color:#cc942c"> Our mission is to help
+                        people fulfill their financial dreams.</h3>
+                    <br>
+                    <div class="container-fluid">
+                        <h5 class="text-justify text-white gs mt-1">At Rampver, our thrust is to provide you an
+                            effective pathway towards financial wellness that is simple and easily embraced. By knowing
+                            you, we are able to design a personalized program that will give you the confidence to
+                            fulfill the financial success you've always dreamed of.</h5>
+                        <br>
+                        <br>
+
+                        <p id="outline-btn" class="text-center">
+                            <a href="https://rampver.com/company-primer" class="btn btn-lg gsBold white-button"
+                                style="background-color: #ffffff; color:#124735">LEARN
+                                MORE</a>
+                        </p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 vidCon">
+                <div class="video-container align-middle">
+                    <iframe class="white-border lazyload" src="https://www.youtube.com/embed/vY-wdye7ikM"
+                        srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}
+                        span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style>
+                        <a href=https://www.youtube.com/embed/vY-wdye7ikM><img src=https://img.youtube.com/vi/vY-wdye7ikM/maxresdefault.jpg><span>▶</span></a>" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen>
+                    </iframe>
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+    <!-- end of vid section SM -->
+    <!-- start of icon carousel-lg -->
+    <div class="icon-carousel-section pb-3 d-none d-md-block" id="offer">
+        <div>
+            <br>
+            <br>
+            <h3 class="gsBold text-rampver pt-4 ml-3 pl-4">WHAT WE OFFER</h3>
+            <br>
+            <h5 class="gsBold text-gold text-center">Rampver is a complete one stop shop for the
+                best financial products & services in the Philippines.</h5>
+            <br>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active indicator"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1" class="indicator"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2" class="indicator"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3" class="indicator"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4" class="indicator"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5" class="indicator"></li>
+            </ol>
+            <div class="carousel-inner">
+                <!-- INVESTMENTS -->
+                <div class="carousel-item active">
+                    <div class="text-center">
+                        <h1 class="pt-3 pb-3 mb-2">
+                            <a class="btn btn-lg bg-rampver text-white gsBold">INVESTMENTS</a>
+                        </h1>
+                        <br>
+                    </div>
+                    <div class="row px-4 mx-4 py-4">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-center mb-3">
+                            <div>
+                                <img src="./img/homepage-icons/mutual-fund.png"
+                                    class="lazyload icons-carousel text-center" alt="mutual funds"><br>
+                                <a href="https://rampver.com/offers/mutual-funds/funds/recommended.html"
+                                    class="btn gsBold text-white mt-3 pb-2 text-center"
+                                    style="background-color: #124735 ;">Mutual Funds</a>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 pb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/stock-trading.png"
+                                    class="lazyload icons-carousel text-center" alt=""><br>
+                                <a href="https://rampver.com/inquire/campaign.html?id=NHPoffer-stocktrading"
+                                    class="btn gsBold text-white mt-3 mb-2 text-center"
+                                    style="background-color: #124735 ;">Stock Trading</a>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 pb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/uitf.png" class="lazyload icons-carousel text-center"
+                                    alt=""><br>
+                                <a data-toggle="tooltip" data-placement="top" title="Coming soon!"
+                                    class="btn gsBold text-white mt-3 px-4 mb-2 text-center"
+                                    style="background-color: #124735 ;">UITFs</a>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 pb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/fixed-income.png"
+                                    class="lazyload icons-carousel text-center" alt=""><br>
+                                <a class="btn gsBold text-white mt-3 mb-2 text-center"
+                                    style="background-color: #124735 ;" data-toggle="tooltip" data-placement="top"
+                                    title="Coming soon!">Fixed Income</a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- INVESTMENTS -->
+                <!-- Healthcare -->
+                <div class="carousel-item">
+                    <div class="text-center">
+                        <h1 class="pt-3 pb-3 mb-2">
+                            <a class="btn btn-lg bg-rampver text-white gsBold">HEALTHCARE</a>
+                        </h1>
+                        <br>
+                    </div>
+                    <div class="row px-4 mx-4 py-4">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center mb-3">
+                            <div>
+                                <img src="./img/homepage-icons/hmo.png" class="lazyload icons-carousel text-center"
+                                    alt="mutual funds"><br>
+                                <a href="https://rampver.com/inquire/campaign.html?id=NHPoffer-hmo"
+                                    class="btn gsBold text-white mt-3 pb-2 px-3 text-center"
+                                    style="background-color: #124735 ;">HMO Plans</a>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/medical-insurance.png"
+                                    class="lazyload icons-carousel text-center" alt=""><br>
+                                <a href="https://rampver.com/inquire/campaign.html?id=NHPoffer-medical-insurance"
+                                    class="btn gsBold text-white mt-3 mb-2 text-center"
+                                    style="background-color: #124735 ;">Medical Insurance</a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Healthcare -->
+
+                <!-- Protection -->
+                <div class="carousel-item ">
+                    <div class="text-center">
+                        <h1 class="pt-3 pb-3 mb-2">
+                            <a class="btn btn-lg bg-rampver text-white gsBold">PROTECTION</a>
+                        </h1>
+                        <br>
+                    </div>
+                    <div class="row px-4 mx-4 py-4">
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 text-center mb-3">
+                            <div>
+                                <img src="./img/homepage-icons/life-insurance.png"
+                                    class="lazyload icons-carousel text-center" alt="mutual funds"><br>
+                                <a href="https://rampver.com/inquire/campaign.html?id=NHPoffer-life-insurance"
+                                    class="btn gsBold text-white mt-3 pb-2 text-center"
+                                    style="background-color: #124735 ;">Life Insurance</a>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 pb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/non-life.png" class="lazyload icons-carousel text-center"
+                                    alt=""><br>
+                                <a href="https://rampver.com/inquire/campaign.html?id=NHPoffer-nonlife-insurance"
+                                    class="btn gsBold text-white mt-3 mb-2 text-center"
+                                    style="background-color: #124735 ;">Non-life Insurance</a>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 pb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/pre-need.png" class="lazyload icons-carousel text-center"
+                                    alt=""><br>
+                                <a href="https://rampver.com/inquire/campaign.html?id=NHPoffer-memorial-plans"
+                                    class="btn gsBold text-white mt-3 mb-2 text-center"
+                                    style="background-color: #124735 ;">Memorial Plans</a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Protection -->
+                <!-- CORPSOL -->
+                <div class="carousel-item ">
+                    <div class="text-center">
+                        <h1 class="pt-3 pb-3 mb-2">
+                            <a class="btn btn-lg bg-rampver text-white gsBold">CORPORATE SOLUTIONS</a>
+                        </h1>
+                        <br>
+                    </div>
+                    <div class="row px-4 mx-4 py-4">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center mb-3">
+                            <div>
+                                <img src="./img/homepage-icons/business-solutions.png"
+                                    class="lazyload icons-carousel text-center" alt="mutual funds"><br>
+                                <a href="https://rampver.com/inquire/campaign.html?id=NHPoffer-corpsol"
+                                    class="btn gsBold text-white mt-3 pb-2 text-center"
+                                    style="background-color: #124735 ;">Business Solutions</a>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/employee.png" class="lazyload icons-carousel text-center"
+                                    alt=""><br>
+                                <a href="https://rampver.com/inquire/campaign.html?id=NHPoffer-corpsol"
+                                    class="btn gsBold text-white mt-3 mb-2 text-center"
+                                    style="background-color: #124735 ;">Employee Solutions</a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CORPSOL -->
+                <!-- Real Estate -->
+                <div class="carousel-item ">
+                    <div class="text-center">
+                        <h1 class="pt-3 pb-3 mb-2">
+                            <a class="btn btn-lg bg-rampver text-white gsBold">REAL ESTATE</a>
+                        </h1>
+                        <br>
+                    </div>
+                    <div class="row px-4 mx-4 py-4">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center mb-3">
+                            <div>
+                                <img src="./img/homepage-icons/real-estate.png"
+                                    class="lazyload icons-carousel text-center" alt="mutual funds"><br>
+                                <a data-toggle="tooltip" data-placement="top" title="Coming soon!"
+                                    class="btn gsBold text-white mt-3 pb-2 text-center"
+                                    style="background-color: #124735 ;">Real Estate</a>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/home-loans.png"
+                                    class="lazyload icons-carousel text-center" alt=""><br>
+                                <a data-toggle="tooltip" data-placement="top" title="Coming soon!"
+                                    class="btn gsBold text-white mt-3 mb-2 text-center"
+                                    style="background-color: #124735 ;">Home Loans</a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Real estate -->
+                <!-- FOREX -->
+                <div class="carousel-item ">
+                    <div class="text-center">
+                        <h1 class="pt-3 pb-3 mb-2">
+                            <a class="btn btn-lg bg-rampver text-white gsBold">FX AND CRYPTO</a>
+                        </h1>
+                        <br>
+                    </div>
+                    <div class="row px-4 mx-4 py-4">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center mb-3">
+                            <div>
+                                <img src="./img/homepage-icons/forex.png" class="lazyload icons-carousel text-center"
+                                    alt="mutual funds"><br>
+                                <a data-toggle="tooltip" data-placement="top" title="Coming soon!"
+                                    class="btn gsBold text-white mt-3 pb-2 text-center"
+                                    style="background-color: #124735 ;">Currency Exchange</a>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/crypto.png" class="lazyload icons-carousel text-center"
+                                    alt=""><br>
+                                <a data-toggle="tooltip" data-placement="top" title="Coming soon!"
+                                    class="btn gsBold text-white mt-3 mb-2 text-center"
+                                    style="background-color: #124735 ;">Cryptocurrencies</a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FOREX -->
+
+            </div>
+            <br>
+            <br>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!--end of icon carousel-lg -->
+    <div id="offer-sm"></div>
+    <!-- start of icon carousel-SM -->
+    <div class="icon-carousel-section pb-3 d-md-none">
+        <div>
+            <br>
+            <br>
+            <h3 class="gsBold text-rampver text-center">WHAT WE OFFER</h3>
+            <br>
+            <p class="gsBold text-gold text-center mx-4">Rampver is a complete one stop shop for the
+                best financial products & services in the Philippines.</p>
+        </div>
+        <div id="carouselExampleIndicatorsSM" class="carousel slide" data-ride="carouselSM">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicatorsSM" data-slide-to="0" class="active indicator"></li>
+                <li data-target="#carouselExampleIndicatorsSM" data-slide-to="1" class="indicator"></li>
+                <li data-target="#carouselExampleIndicatorsSM" data-slide-to="2" class="indicator"></li>
+                <li data-target="#carouselExampleIndicatorsSM" data-slide-to="3" class="indicator"></li>
+                <li data-target="#carouselExampleIndicatorsSM" data-slide-to="4" class="indicator"></li>
+                <li data-target="#carouselExampleIndicatorsSM" data-slide-to="5" class="indicator"></li>
+            </ol>
+            <div class="carousel-inner">
+                <!-- Investments -->
+                <div class="carousel-item active">
+                    <div class="text-center">
+                        <h1 class="pt-3 pb-3 mb-2">
+                            <a class="btn bg-rampver text-white gsBold">INVESTMENTS</a>
+                        </h1>
+                        <br>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col mb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/mutual-fund.png"
+                                    class="lazyload icons-carousel text-center" alt="mutual funds"><br>
+                                <a href="https://rampver.com/offers/mutual-funds/funds/recommended.html"
+                                    class="btn btn-sm gsBold text-white mt-3 text-center"
+                                    style="background-color: #124735 ;">Mutual Funds</a>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col mb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/stock-trading.png"
+                                    class="lazyload icons-carousel text-center" alt=""><br>
+                                <a href="https://rampver.com/inquire/campaign.html?id=NHPoffer-stocktrading"
+                                    class="btn btn-sm gsBold text-white mt-3 text-center"
+                                    style="background-color: #124735 ;">Stock Trading</a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/uitf.png" class="lazyload icons-carousel text-center"
+                                    alt=""><br>
+                                <a class="btn btn-sm gsBold px-4 text-white mt-3 text-center"
+                                    style="background-color: #124735 ;" data-toggle="tooltip" data-placement="top"
+                                    title="Coming soon!">UITFs</a>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col mb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/fixed-income.png"
+                                    class="lazyload icons-carousel text-center" alt=""><br>
+                                <button class="btn btn-sm gsBold text-white mt-3 text-center"
+                                    style="background-color: #124735" data-toggle="tooltip" data-placement="top"
+                                    title="Coming soon!">Fixed Income</button>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Investments -->
+
+                <!-- Healthcare -->
+                <div class="carousel-item">
+                    <div class="text-center">
+                        <h1 class="pt-3 pb-3 mb-2">
+                            <a class="btn bg-rampver text-white gsBold">HEALTHCARE</a>
+                        </h1>
+                        <br>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col mb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/hmo.png" class="lazyload icons-carousel text-center"
+                                    alt="mutual funds"><br>
+                                <a href="https://rampver.com/inquire/campaign.html?id=NHPoffer-hmo"
+                                    class="btn btn-sm gsBold text-white mt-3 px-3 text-center"
+                                    style="background-color: #124735;">HMO Plans</a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/medical-insurance.png"
+                                    class="lazyload icons-carousel text-center" alt="mutual funds"><br>
+                                <a href="https://rampver.com/inquire/campaign.html?id=NHPoffer-medical-insurance"
+                                    class="btn btn-sm gsBold text-white mt-3 text-center"
+                                    style="background-color: #124735 ;">Medical Insurance</a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Healthcare -->
+
+                <!-- Protection -->
+                <div class="carousel-item" data-interval="3500">
+                    <div class="text-center">
+                        <h1 class="pt-3 pb-3 mb-2">
+                            <a href="" class="btn bg-rampver text-white gsBold">PROTECTION</a>
+                        </h1>
+                        <br>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col mb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/life-insurance.png"
+                                    class="lazyload icons-carousel text-center" alt="mutual funds"><br>
+                                <a href="https://rampver.com/inquire/campaign.html?id=NHPoffer-life-insurance"
+                                    class="btn btn-sm gsBold text-white mt-3 text-center"
+                                    style="background-color: #124735;">Life Insurance</a>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col mb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/non-life.png" class="lazyload icons-carousel text-center"
+                                    alt="mutual funds"><br>
+                                <a href="https://rampver.com/inquire/campaign.html?id=NHPoffer-nonlife-insurance"
+                                    class="btn btn-sm gsBold text-white mt-3 text-center"
+                                    style="background-color: #124735 ;">Non-life Insurance</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/pre-need.png" class="lazyload icons-carousel text-center"
+                                    alt="mutual funds"><br>
+                                <a href="https://rampver.com/inquire/campaign.html?id=NHPoffer-memorial-plans"
+                                    class="btn btn-sm gsBold text-white mt-3 text-center"
+                                    style="background-color: #124735 ;">Memorial Plans</a>
+                            </div>
+                        </div>
+                        <div class="col mb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/blank.png" class="lazyload icons-carousel text-center"
+                                    alt=""><br>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Protection -->
+
+                <!-- CORPSOL -->
+                <div class="carousel-item" data-interval="3500">
+                    <div class="text-center">
+                        <h1 class="pt-3 pb-3 mb-2">
+                            <a class="btn bg-rampver text-white gsBold">CORPORATE
+                                SOLUTIONS</a>
+                        </h1>
+                        <br>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col mb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/business-solutions.png"
+                                    class="lazyload icons-carousel text-center" alt="mutual funds"><br>
+                                <a href="https://rampver.com/inquire/campaign.html?id=NHPoffer-corpsol"
+                                    class="btn btn-sm gsBold text-white mt-3 text-center"
+                                    style="background-color: #124735;">Business Solutions</a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/employee.png" class="lazyload icons-carousel text-center"
+                                    alt="mutual funds"><br>
+                                <a href="https://rampver.com/inquire/campaign.html?id=NHPoffer-corpsol"
+                                    class="btn btn-sm gsBold text-white mt-3 text-center"
+                                    style="background-color: #124735 ;">Employee Solutions</a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- CORPSOL -->
+                <!-- Real Estate -->
+                <div class="carousel-item" data-interval="3500">
+                    <div class="text-center">
+                        <h1 class="pt-3 pb-3 mb-2">
+                            <a class="btn bg-rampver text-white gsBold">Real Estate</a>
+                        </h1>
+                        <br>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col mb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/real-estate.png"
+                                    class="lazyload icons-carousel text-center" alt="mutual funds"><br>
+                                <a data-toggle="tooltip" data-placement="top" title="Coming soon!"
+                                    class="btn btn-sm gsBold text-white mt-3 text-center"
+                                    style="background-color: #124735 ;">Real Estate</a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/home-loans.png"
+                                    class="lazyload icons-carousel text-center" alt=""><br>
+                                <a data-toggle="tooltip" data-placement="top" title="Coming soon!"
+                                    class="btn btn-sm gsBold text-white mt-3 text-center"
+                                    style="background-color: #124735 ;">Home Loans</a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Real estate -->
+                <!-- FX -->
+                <div class="carousel-item" data-interval="3500">
+                    <div class="text-center">
+                        <h1 class="pt-3 pb-3 mb-2">
+                            <a class="btn bg-rampver text-white gsBold">FX AND CRYPTO</a>
+                        </h1>
+                        <br>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col mb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/forex.png" class="lazyload icons-carousel text-center"
+                                    alt="mutual funds"><br>
+                                <a data-toggle="tooltip" data-placement="top" title="Coming soon!"
+                                    class="btn btn-sm gsBold text-white mt-3 text-center"
+                                    style="background-color: #124735 ;">Currency Exchange</a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mb-2 text-center">
+                            <div>
+                                <img src="./img/homepage-icons/crypto.png" class="lazyload icons-carousel text-center"
+                                    alt=""><br>
+                                <a data-toggle="tooltip" data-placement="top" title="Coming soon!"
+                                    class="btn btn-sm gsBold text-white mt-3 text-center"
+                                    style="background-color: #124735 ;">Cryptocurrencies</a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- FX -->
+
+            </div>
+            <br>
+            <br>
+            <a class="carousel-control-prev" style="visibility: hidden ;" href="#carouselExampleIndicatorsSM"
+                role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" style="visibility: hidden ;" href="#carouselExampleIndicatorsSM"
+                role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!--end of icon carousel-SM -->
+
+    <!-- start of why rampver section -->
+    <div class="intro">
+        <br>
+        <h3 class="text-white gsBold d-none d-md-block ml-3">WHY RAMPVER?</h3>
+        <h3 class="text-white gsBold text-center d-md-none">WHY RAMPVER?</h3>
+        <br>
+        <div class="row why-rampver">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 mt-2">
+                <div class="mx-0 px-0 text-center">
+                    <img src="./img/why-rampver-icons/access.png" class="lazyload text-center why-rf-icons text-center">
+                    <br>
+                    <h4 class="gsBold text-center text-gold mb-0 mt-2">Centralized Access</h4>
+                    <p class="text-white text-center gs lead">Partnering with industry-leading providers allows us to
+                        craft personalized programs designed to fulfill your financial needs.</p>
+                    <br>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 mt-2">
+                <div class="mx-0 px-0 text-center">
+                    <img src="./img/why-rampver-icons/advisory.png"
+                        class="lazyload text-center why-rf-icons text-center">
+                    <br>
+                    <h4 class="gsBold text-center text-gold mb-0 mt-2">Competent and Unbiased Advisory</h4>
+                    <p class="text-white text-center gs lead">Our licensed financial advisors will proactively hand-hold
+                        you to execute and achieve your financial goals.</p>
+                    <br>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 mt-2">
+                <div class="mx-0 px-0 text-center">
+                    <img src="./img/why-rampver-icons/service.png"
+                        class="lazyload text-center why-rf-icons text-center">
+                    <br>
+                    <h4 class="gsBold text-center text-gold mb-0 mt-2">Exceptional Service</h4>
+                    <p class="text-white text-center mx-3 why-rampver-2 gs lead">We take pride in serving and guiding
+                        our clients with the enthusiasm to go the extra mile.</p>
+                    <br>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-2 d-none d-md-block"></div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 mt-2 why-rampver-2">
+                <div class="mx-0 px-0 text-center">
+                    <img src="./img/why-rampver-icons/aum.png" class="lazyload text-center why-rf-icons text-center">
+                    <br>
+                    <h4 class="gsBold text-center text-gold mb-0 mt-2">Php 15 Billion Managed Assets</h4>
+                    <p class="text-white text-center gs lead">For 30 years, we have been deeply trusted by our clients
+                        with their investments and insurance policies.</p>
+                    <br>
+                </div>
+            </div>
+            <div class="col-lg-1 col-md-1 d-none d-md-block"></div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 mt-2 why-rampver-2">
+                <div class="mx-0 px-0 text-center">
+                    <img src="./img/why-rampver-icons/client-base.png"
+                        class="lazyload text-center why-rf-icons text-center">
+                    <br>
+                    <h4 class="gsBold text-center text-gold mb-0 mt-2">More than 50,000 clients</h4>
+                    <p class="text-white text-center gs lead">Through the years, we have build a solid base of Rampver
+                        clients advocating our mission to help people fulfill their dreams.</p>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+    <!-- end of why rampver section -->
+    <!-- start of LARGE icon carousel -->
+    <div class="logo-carousel-section large-logo-section d-none d-md-block">
+        <div>
+            <br>
+            <br>
+            <h3 class="gsBold text-rampver pt-4 ml-2 pl-4">OUR PARTNERS</h3>
+        </div>
+        <div id="logoIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#logoIndicators" data-slide-to="0" class="active indicator"></li>
+                <li data-target="#logoIndicators" data-slide-to="1" class="indicator"></li>
+                <li data-target="#logoIndicators" data-slide-to="2" class="indicator"></li>
+                <li data-target="#logoIndicators" data-slide-to="3" class="indicator"></li>
+                <li data-target="#logoIndicators" data-slide-to="4" class="indicator"></li>
+                <li data-target="#logoIndicators" data-slide-to="5" class="indicator"></li>
+                <li data-target="#logoIndicators" data-slide-to="6" class="indicator"></li>
+                <!-- <li data-target="#logoIndicators" data-slide-to="7" class="indicator"></li> -->
+            </ol>
+            <div class="carousel-inner">
+                <!-- mutual funds -->
+                <div class="carousel-item active pb-1">
+                    <div class="text-center">
+                        <h1 class="pt-3 pb-3 mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-MF"
+                                class="btn btn-lg bg-rampver text-white gsBold">Mutual
+                                Funds</a>
+                        </h1>
+                        <br>
+                    </div>
+                    <div class="row px-4 mx-4 py-4">
+                        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-2">
+                            <a href="../offers/mutual-funds/funds/soldivo.html">
+                                <img src="./img/partner-logos/soldivo.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-2">
+                            <a href="../offers/mutual-funds/funds/atram.html">
+                                <img src="./img/partner-logos/atram.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-2">
+                            <a href="../offers/mutual-funds/funds/slamci.html">
+                                <img src="./img/partner-logos/slamci.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-2">
+                            <a href="../offers/mutual-funds/funds/pemi.html">
+                                <img src="./img/partner-logos/philequity.jpg"
+                                    class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-2">
+                            <a href="../offers/mutual-funds/funds/bimi.html">
+                                <img src="./img/partner-logos/bimi.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-2">
+                            <a href="../offers/mutual-funds/funds/fami.html">
+                                <img src="./img/partner-logos/fami.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- mutual funds -->
+                <!-- life insurance -->
+                <div class="carousel-item pb-1">
+                    <div class="text-center">
+                        <h1 class="pt-3 pb-3 mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-life-insurance"
+                                class="btn btn-lg bg-rampver text-white gsBold">Life
+                                Insurance</a>
+                        </h1>
+                        <br>
+                    </div>
+                    <div class="row px-4 mx-4 py-4">
+                        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-life-insurance">
+                                <img src="./img/partner-logos/axa.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-life-insurance">
+                                <img src="./img/partner-logos/aia.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-life-insurance">
+                                <img src="./img/partner-logos/generali.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-life-insurance">
+                                <img src="./img/partner-logos/mb-life.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-2">
+                            <img src="./img/partner-logos/sunlife.jpg" class="lazyload logo-carousel text-center">
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-life-insurance">
+                                <img src="./img/partner-logos/paramount.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- life insurance-->
+                <!-- healthcare -->
+                <div class="carousel-item pb-1">
+                    <div class="text-center">
+                        <h1 class="pt-3 pb-3 mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-healthcare"
+                                class="btn btn-lg bg-rampver text-white gsBold">Healthcare</a></h1>
+                        <br>
+                    </div>
+                    <div class="row px-4 mx-4 py-4">
+                        <div class="col-lg-6 col-md-6 col-sm-6 text-center mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-healthcare">
+                                <img src="./img/partner-logos/axa.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 text-center mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-healthcare">
+                                <img src="./img/partner-logos/maxicare.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-healthcare">
+                                <img src="./img/partner-logos/pacific-cross.jpg"
+                                    class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-healthcare">
+                                <img src="./img/partner-logos/philcare.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-healthcare">
+                                <img src="./img/partner-logos/medicard.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- healthcare-->
+                <!-- non-life -->
+                <div class="carousel-item pb-1">
+                    <div class="text-center">
+                        <h1 class="pt-3 pb-3 mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-nonlife-insurance"
+                                class="btn btn-lg bg-rampver text-white gsBold">Non-life
+                                Insurance </a></h1>
+                        <br>
+                    </div>
+                    <div class="row px-4 mx-4 py-4">
+                        <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-nonlife-insurance">
+                                <img src="./img/partner-logos/axa.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-nonlife-insurance">
+                                <img src="./img/partner-logos/standard.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-nonlife-insurance">
+                                <img src="./img/partner-logos/pacific-cross.jpg"
+                                    class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 text-center mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-nonlife-insurance">
+                                <img src="./img/partner-logos/prudential-guarantee.jpg"
+                                    class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-nonlife-insurance">
+                                <img src="./img/partner-logos/pacific-union.jpg"
+                                    class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-nonlife-insurance">
+                                <img src="./img/partner-logos/malayan-insurance.jpg"
+                                    class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6 text-center mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-nonlife-insurance">
+                                <img src="./img/partner-logos/paramount.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- non-life-->
+                <!-- stock trading -->
+                <div class="carousel-item">
+                    <div class="text-center">
+                        <h1 class="pt-3 pb-3 mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-stocktrading"
+                                class="btn btn-lg bg-rampver text-white gsBold">Stock Trading</a></h1>
+                    </div>
+
+                    <div class="logos-fodder">
+                        <br><br><br>
+                    </div>
+                    <div class="row px-4 mx-4 py-4 d-flex align-items-center">
+                        <div class="col-lg-6 col-md-6 col-sm-6 text-center mb-2">
+                            <a href="https://rampver.mytrade.com.ph/" target="_blank">
+                                <img src="./img/partner-logos/mytrade.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 text-center mb-2">
+                            <a href="https://marketing.utradeph.com/?UTM_Source=Rampver" target="_blank">
+                                <img src="./img/partner-logos/utrade.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="logos-fodder">
+                        <br><br><br>
+                    </div>
+                </div>
+                <!--stock trading-->
+                <!-- Memorial Plans -->
+                <div class="carousel-item">
+                    <div class="text-center">
+                        <h1 class="pt-3 pb-3 mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-memorial-plans"
+                                class="btn btn-lg bg-rampver text-white gsBold">Memorial Plans</a></h1>
+                    </div>
+                    <div class="logos-fodder">
+                        <br><br><br>
+                    </div>
+                    <div class="row px-4 mx-4 py-4 d-flex align-items-center">
+                        <div class="col-lg-12 col-md-12 col-sm-12 text-center mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-memorial-plans">
+                                <img src="./img/partner-logos/st-peter.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="logos-fodder">
+                        <br><br><br>
+                    </div>
+                </div>
+                <!--Memorial Plans-->
+                <!-- sme loans -->
+                <div class="carousel-item">
+                    <div class="text-center">
+                        <h1 class="pt-3 pb-3 mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-smeloans"
+                                class="btn btn-lg bg-rampver text-white gsBold">Business Loans</a></h1>
+                    </div>
+                    <div class="logos-fodder">
+                        <br><br><br>
+                    </div>
+                    <div class="row px-4 mx-4 py-4 d-flex align-items-center">
+                        <div class="col-lg-12 col-md-12 col-sm-12 text-center mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-smeloans">
+                                <img src="./img/partner-logos/esquire.jpg" class="lazyload logo-carousel text-center">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="logos-fodder">
+                        <br><br><br>
+                    </div>
+                </div>
+                <!--sme loans-->
+            </div>
+            <br>
+            <br>
+            <a class="carousel-control-prev" href="#logoIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#logoIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <br>
+        <br>
+    </div>
+    <!--end of LARGE icon carousel -->
+
+    <!-- start of SMALL icon carousel -->
+    <div class="logo-carousel-section d-md-none">
+        <div>
+            <br>
+            <br>
+            <h3 class="gsBold text-rampver text-center">OUR PARTNERS</h3>
+            <br>
+        </div>
+        <div id="logoIndicatorsSM" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#logoIndicatorsSM" data-slide-to="0" class="active indicator"></li>
+                <li data-target="#logoIndicatorsSM" data-slide-to="1" class="indicator"></li>
+                <li data-target="#logoIndicatorsSM" data-slide-to="2" class="indicator"></li>
+                <li data-target="#logoIndicatorsSM" data-slide-to="3" class="indicator"></li>
+                <li data-target="#logoIndicatorsSM" data-slide-to="4" class="indicator"></li>
+                <li data-target="#logoIndicatorsSM" data-slide-to="5" class="indicator"></li>
+                <li data-target="#logoIndicatorsSM" data-slide-to="6" class="indicator"></li>
+            </ol>
+            <div class="carousel-inner">
+                <!-- mutual funds -->
+                <div class="carousel-item active pb-1 mb-2">
+                    <div class="text-center">
+                        <h1 class="pt-3 mb-2">
+                            <a href="https://rampver.com/offers/mutual-funds/funds/recommended.html"
+                                class="btn btn-lg bg-rampver text-white gsBold">Mutual
+                                Funds</a>
+                        </h1>
+                    </div>
+                    <div class="px-3 text-center">
+                        <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-MF">
+                            <img src="./img/logo-static/mutual-funds.jpg" class="lazyload img-fluid logo-static" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- mutual funds -->
+                <!-- healthcare -->
+                <div class="carousel-item pb-1 mb-2">
+                    <div class="text-center">
+                        <h1 class="pt-3 mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-healthcare"
+                                class="btn btn-lg bg-rampver text-white gsBold">Healthcare</a>
+                        </h1>
+                    </div>
+                    <div class="px-3 text-center">
+                        <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-healthcare">
+                            <img src="./img/logo-static/healthcare.jpg" class="lazyload img-fluid logo-static" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- healthcare -->
+                <!-- life insurance -->
+                <div class="carousel-item pb-1 mb-2">
+                    <div class="text-center">
+                        <h1 class="pt-3 mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-life-insurance"
+                                class="btn btn-lg bg-rampver text-white gsBold">Life Insurance</a>
+                        </h1>
+                    </div>
+                    <div class="px-3 text-center"><a
+                            href="https://rampver.com/inquire/campaign.html?id=NHPpartner-life-insurance">
+                            <img src="./img/logo-static/life-insurance.jpg" class="lazyload img-fluid logo-static"
+                                alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- life insurance -->
+                <!-- non life insurance -->
+                <div class="carousel-item pb-1 mb-2">
+                    <div class="text-center">
+                        <h1 class="pt-3 mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-nonlife-insurance"
+                                class="btn btn-lg bg-rampver text-white gsBold">Non-life Insurance</a>
+                        </h1>
+                    </div>
+                    <div class="px-3 text-center">
+                        <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-nonlife-insurance">
+                            <img src="./img/logo-static/non-life.jpg" class="lazyload img-fluid logo-static" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- nonlife insurance -->
+                <!-- stock trading -->
+                <div class="carousel-item pb-1 mb-2">
+                    <div class="text-center">
+                        <h1 class="pt-3 mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-stocktrading"
+                                class="btn btn-lg bg-rampver text-white gsBold">Stock Trading</a>
+                        </h1>
+                    </div>
+                    <div class="px-3 text-center">
+                        <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-stocktrading">
+                            <img src="./img/logo-static/stock-trading.jpg" class="lazyload img-fluid logo-static"
+                                alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- stock trading -->
+                <!-- preneed -->
+                <div class="carousel-item pb-1 mb-2">
+                    <div class="text-center">
+                        <h1 class="pt-3 mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-memorial-plans"
+                                class="btn btn-lg bg-rampver text-white gsBold">Memorial Plans</a>
+                        </h1>
+                    </div>
+                    <div class="px-3 text-center">
+                        <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-memorial-plans">
+                            <img src="./img/logo-static/pre-need.jpg" class="lazyload img-fluid logo-static" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- preneed -->
+                <!-- business loans -->
+                <div class="carousel-item pb-1 mb-2">
+                    <div class="text-center">
+                        <h1 class="pt-3 mb-2">
+                            <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-smeloans"
+                                class="btn btn-lg bg-rampver text-white gsBold">Business Loans</a>
+                        </h1>
+                    </div>
+                    <div class="px-3 text-center">
+                        <a href="https://rampver.com/inquire/campaign.html?id=NHPpartner-smeloans">
+                            <img src="./img/logo-static/business-loans.jpg" class="lazyload img-fluid logo-static"
+                                alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- business loans -->
+            </div>
+            <a class="carousel-control-prev" style="visibility: hidden;" href="#logoIndicatorsSM" role="button"
+                data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" style="visibility: hidden;" href="#logoIndicatorsSM" role="button"
+                data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only" style="background-color: #124735 ;">Next</span>
+            </a>
+        </div>
+        <br>
+    </div>
+    <!--end of SMALL icon carousel -->
+
+    <!-- start of investment tools section -->
+    <div class="intro">
+        <br class="d-md-block">
+        <h4 class="text-white gsBold d-none d-md-block ml-3">INVESTMENT TOOLS</h4>
+        <h4 class="text-white gsBold text-center d-md-none">INVESTMENT TOOLS</h4>
+        <br>
+        <h4 class="gsBold text-gold text-center d-none d-md-block">Try these tools that can supplement your investment
+            journey.</h4>
+        <h5 class="gsBold text-gold text-center d-md-none">Try these tools that can supplement your investment
+            journey.</h5>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mt-2">
+                <a href="https://app.rampver.com" target="_blank">
+                    <div class="mx-0 px-0 text-center">
+                        <img src="./img/learning-tools/rf-online.png"
+                            class="lazyload text-center learning-tools-icons text-center">
+                        <br>
+                        <p class="lead gsBold text-center text-gold mb-0">Rampver Online</p>
+                        <p class="text-white text-center gs">Start your investing journey now</p>
+                    </div>
+                </a>
+                <br>
+            </div>
+            <br>
+            <br>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 mt-2">
+                <a href="../offers/mutual-funds/risk-profiler/quiz.html" target="_blank">
+                    <div class="mx-0 px-0 text-center">
+                        <img src="./img/learning-tools/profiler.png"
+                            class="lazyload text-center learning-tools-icons text-center">
+                        <br>
+                        <p class="lead gsBold text-center text-gold mb-0">Risk Assessment Quiz</p>
+                        <p class="text-white text-center gs">Know your investment profile</p>
+                    </div>
+                </a>
+                <br>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 mt-2">
+                <a href="../offers/mutual-funds/graph/projector.html" target="_blank">
+                    <div class="mx-0 px-0 text-center">
+                        <img src="./img/learning-tools/projector.png"
+                            class="lazyload text-center learning-tools-icons text-center">
+                        <br>
+                        <p class="lead gsBold text-center text-gold mb-0">Investment Projection Calculator</p>
+                        <p class="text-white text-center gs">Plan your investment strategy</p>
+                    </div>
+                </a>
+                <br>
+            </div>
+        </div>
+        <br>
+    </div>
+    <!-- end of investment tools section -->
+
+    <!-- start of learning center section LG -->
+    <div class="learning-tools d-none d-md-block" id="learning-center">
+        <br>
+        <h4 class="text-white gsBold ml-3 d-none d-md-block">LEARNING CENTER</h4>
+        <h4 class="text-white gsBold text-center d-md-none">LEARNING CENTER</h4>
+        <br>
+        <h4 class="gsBold text-gold text-center d-none d-md-block">Be part of our community and learn financial
+            education through our socials!</h4>
+        <h5 class="gsBold text-gold text-center d-md-none">Be part of our community and learn financial education
+            through our
+            socials!</h5>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col text-center mx-3 mb-2">
+                <a href="https://youtube.com/rampverfinancials" target="_blank">
+                    <img src="./img/learning-tools/youtube.png"
+                        class="lazyload text-center learning-tools-icons text-center">
+                    <br>
+                    <p class="lead gsBold text-center text-gold">Youtube</p>
+                </a>
+            </div>
+
+            <div class="col text-center mx-3 mb-2">
+                <a href="https://facebook.com/rampverfinancials" target="_blank">
+                    <img src="./img/learning-tools/facebook.png"
+                        class="lazyload text-center learning-tools-icons text-center">
+                    <br>
+                    <p class="lead gsBold text-center text-gold">Facebook</p>
+                </a>
+            </div>
+
+            <div class="col text-center mx-3 mb-2">
+                <a href="https://tiktok.com/@rampverfinancials" target="_blank">
+                    <img src="./img/learning-tools/tiktok.png"
+                        class="lazyload text-center learning-tools-icons text-center">
+                    <br>
+                    <p class="lead gsBold text-center text-gold">Tiktok</p>
+                </a>
+            </div>
+
+            <div class="col text-center mx-3 mb-2">
+                <a href="https://instagram.com/rampverfinancials" target="_blank">
+                    <img src="./img/learning-tools/instagram.png"
+                        class="lazyload text-center learning-tools-icons text-center">
+                    <br>
+                    <p class="lead gsBold text-center text-gold">Instagram</p>
+                </a>
+            </div>
+
+            <div class="col text-center mx-3 mb-2">
+                <a href="https://bit.ly/RFFrontseat" target="_blank">
+                    <img src="./img/learning-tools/viber.png"
+                        class="lazyload text-center learning-tools-icons text-center">
+                    <br>
+                    <p class="lead gsBold text-center text-gold">Frontseat</p>
+                </a>
+            </div>
+
+            <div class="col text-center mx-3 mb-2">
+                <a href="https://fanlink.to/rampver" target="_blank">
+                    <img src="./img/learning-tools/spotify.png"
+                        class="lazyload text-center learning-tools-icons text-center">
+                    <br>
+                    <p class="lead gsBold text-center text-gold">Spotify</p>
+                </a>
+            </div>
+
+            <div class="col text-center mx-3 mb-2">
+                <a href="https://medium.com/rampver-reads" target="_blank">
+                    <img src="./img/learning-tools/medium.png"
+                        class="lazyload text-center learning-tools-icons text-center">
+                    <br>
+                    <p class="lead gsBold text-center text-gold">Rampver Reads</p>
+                </a>
+            </div>
+            <div class="col text-center mx-3 mb-2">
+                <a href="https://www.linkedin.com/company/rampverfinancials" target="_blank">
+                    <img src="./img/learning-tools/linkedin.png"
+                        class="lazyload text-center learning-tools-icons text-center">
+                    <br>
+                    <p class="lead gsBold text-center text-gold">LinkedIn</p>
+                </a>
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
+    <!-- end of learning center section LG -->
+    <!-- start of learning center section SM -->
+    <div class="learning-tools-sm d-md-none mx-0" id="learning-center">
+        <br>
+        <h4 class="text-white gsBold text-center d-md-none">LEARNING CENTER</h4>
+        <br>
+        <h5 class="gsBold text-gold text-center d-md-none">Be part of our community and learn financial education
+            through our
+            socials!</h5>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col text-center mb-2">
+                <a href="https://youtube.com/rampverfinancials" target="_blank">
+                    <img src="./img/learning-tools/youtube.png" class="lazyload text-center socmed-small text-center">
+                    <br>
+                    <p class="gsBold text-center text-gold pt-2">Youtube</p>
+                </a>
+            </div>
+            <div class="col text-center mb-2">
+                <a href="https://facebook.com/rampverfinancials" target="_blank">
+                    <img src="./img/learning-tools/facebook.png" class="lazyload text-center socmed-small text-center">
+                    <br>
+                    <p class="gsBold text-center text-gold pt-2">Facebook</p>
+
+                </a>
+            </div>
+
+            <div class="col text-center mb-2">
+                <a href="https://tiktok.com/@rampverfinancials" target="_blank">
+                    <img src="./img/learning-tools/tiktok.png" class="lazyload text-center socmed-small text-center">
+                    <br>
+                    <p class="gsBold text-center text-gold pt-2">Tiktok</p>
+                </a>
+            </div>
+
+            <div class="col text-center mb-2">
+                <a href="https://instagram.com/rampverfinancials" target="_blank">
+                    <img src="./img/learning-tools/instagram.png" class="lazyload text-center socmed-small text-center">
+                    <br>
+                    <p class="gsBold text-center text-gold pt-2">Instagram</p>
+                </a>
+            </div>
+        </div>
+        <br>
+        <div class="row mt-3">
+            <div class="col text-center mb-2">
+                <a href="https://bit.ly/RFFrontseat" target="_blank">
+                    <img src="./img/learning-tools/viber.png" class="lazyload text-center socmed-small text-center">
+                    <br>
+                    <p class="gsBold text-center text-gold pt-2">Frontseat</p>
+                </a>
+            </div>
+
+            <div class="col text-center mb-2">
+                <a href="https://fanlink.to/rampver" target="_blank">
+                    <img src="./img/learning-tools/spotify.png" class="lazyload text-center socmed-small text-center">
+                    <br>
+                    <p class="gsBold text-center text-gold pt-2">Spotify</p>
+                </a>
+            </div>
+
+            <div class="col text-center mb-2">
+                <a href="https://medium.com/rampver-reads" target="_blank">
+                    <img src="./img/learning-tools/medium.png" class="lazyload text-center socmed-small text-center">
+                    <br>
+                    <p class="gsBold text-center text-gold pt-2">Rampver Reads</p>
+                </a>
+            </div>
+            <div class="col text-center mb-2">
+                <a href="https://www.linkedin.com/company/rampverfinancials" target="_blank">
+                    <img src="./img/learning-tools/linkedin.png" class="lazyload text-center socmed-small text-center">
+                    <br>
+                    <p class="gsBold text-center text-gold pt-2">LinkedIn</p>
+                </a>
+            </div>
+        </div>
+        <br>
+    </div>
+    <!-- end of learning center section SM -->
+
+    <!-- start of testimonial -->
+    <div>
+        <div>
+            <br>
+            <br>
+            <h3 class="gsBold text-rampver pt-2 ml-2 pl-4 d-none d-md-block mb-3">Here's what our clients say about us!
+            </h3>
+            <h3 class="gsBold text-rampver text-center px-3 d-md-none">Here's what our clients say about us!</h3>
+        </div>
+        <br>
+        <br class=" d-none d-md-block">
+        <div class="row testimonial-area mx-2">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 testimonial-area mb-2">
+                <div class="text-center">
+                    <img class="testimonial mb-2 lazyload"
+                        src="https://res.cloudinary.com/rampver-financials/image/upload/v1667035396/neo-website/homepage-testimonials/bus-driver.webp"
+                        alt="bus driver">
+                    <h5 class="gsBold text-rampver text-center mb-0 pb-0 mt-2">Masoy Arguelles, 55</h5>
+                    <p class="gsBold text-rampver text-center">Messenger</p>
+                    <p class="font-italic gsBold"><span style="color: #124735">"Dahil sa Rampver, natuto akong
+                            mag-ipon at mag-invest. Matagal na akong kliyente ni Rampver at nagamit ko na rin yung iba
+                            kong kinita para sa bahay namin.
+                        </span><span style="color: #cc942c;"> Naipaliwanag ng financial advisor ko kung saan pumupunta
+                            ang pera ko </span>
+                        <span style="color: #124735"> kaya marami na akong na-invest sa mga mutual fund at ginaganahan
+                            ako kapag nakikita ko na lumalago yung pinaghirapan ko."</span> </p>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 testimonial-area mb-2">
+                <div class="text-center">
+                    <img class="testimonial mb-2 lazyload"
+                        src="https://res.cloudinary.com/rampver-financials/image/upload/v1667035396/neo-website/homepage-testimonials/student.webp"
+                        alt="bus driver">
+                    <h5 class="gsBold text-rampver text-center mb-0 pb-0 mt-2">Vanessa Ibaviosa, 35</h5>
+                    <p class="gsBold text-rampver text-center">Technical Services Specialist</p>
+                    <p class="gs font-italic gsBold"><span style="color: #124735">"I have always been hesitant when
+                            it comes to investing but </span><span style="color: #cc942c;" class="gsBold">Rampver
+                            Financials gave me the security and assurance that my mutual fund and fixed income
+                            investments are safe. </span><span style="color: #124735">
+                            In fact I have started encouraging others to invest as well and already have a couple of
+                            investment accounts for my god children."</span></p>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 testimonial-area mb-2">
+                <div class="text-center">
+                    <img class="testimonial mb-2 lazyload"
+                        src="https://res.cloudinary.com/rampver-financials/image/upload/v1667035396/neo-website/homepage-testimonials/businessman.webp"
+                        alt="bus driver">
+                    <h5 class="gsBold text-rampver text-center mb-0 pb-0 mt-2">Dr. Sixto Carlos, 52</h5>
+                    <p class="gsBold text-rampver text-center">Veterinarian & Business Owner</p>
+                    <p class="gs font-italic gsBold text-center"><span style="color: #124735">"Rampver makes it easy for
+                            me to
+                            get health insurance for my staff. </span><span style="color: #cc942c;" class="gsBold">
+                            They’re brand agnostic, so I get to choose the best for our needs.</span><span
+                            style="color: #124735">
+                            I’ve been a client for 14 years and through them, I’ve built a sizable portfolio I plan to
+                            enjoy during my retirement years!"
+                        </span> </p>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <!--end of testimonial -->
+        <br>
+        <!-- start FAQs -->
+        <div class="faqs">
+            <h3 class="text-white gsBold text-center">FREQUENTLY ASKED QUESTIONS</h3>
+            <br>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <button class="faq-btn btn btn-link row d-flex justify-content-start"
+                                    data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                    aria-controls="collapseOne">
+                                    <img src="./img/faq/start.png" class="lazyload faq-icons mr-2 d-none d-sm-block"
+                                        alt="">
+                                    <h4 class="text-rampver gsBold ml-4 pt-2 d-none d-md-block">How to get started?
+                                    </h4>
+                                    <h5 class="text-rampver gsBold ml-2 pt-2 d-md-none">How to get started?</h5>
+                                    <b><i class="fas fa-angle-down float-right down-icon pt-2 text-rampver"
+                                            style="font-size: 175%;"></i></b>
+                                </button>
+                            </div>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                data-parent="#accordion">
+                                <div class="card-body gs">
+                                    <p class="text-rampver gsBold">We, at Rampver Financials strive to be your
+                                        partner to wealth creation. Here’s how you get started!
+                                    </p>
+                                    <p>Step 1. Learn more about our products & services by browsing through our
+                                        website or social media. Feel free to join our growing community to stay
+                                        updated with our latest promos and product offers.
+                                    </p>
+                                    <p>Step 2. Already have a product or service in mind? Fill out this <a
+                                            href="https://rampver.com/inquire/campaign.html?id=NHPFAQ-getstarted">form</a>
+                                        or contact us at <a href="mailto:info@rampver.com">info@rampver.com</a>. An
+                                        account officer
+                                        will reach out to you through email within 1-2 business days.
+                                    </p>
+                                    <p>Step 3. Let the account officer discuss your best options based on your risk
+                                        profile, time horizon, financial needs and goals.
+                                    </p>
+                                </div>
+                            </div>
+                            <a href=""></a>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <button class="faq-btn btn btn-link row d-flex justify-content-start"
+                                    data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+                                    aria-controls="collapseTwo">
+                                    <img src="./img/faq/invest.png" class="lazyload faq-icons mr-2 d-none d-sm-block"
+                                        alt="">
+                                    <h4 class="text-rampver gsBold ml-4 pt-2 d-none d-md-block">How to invest?</h4>
+                                    <h5 class="text-rampver gsBold ml-2 pt-2 d-md-none">How to invest?</h5>
+                                    <b><i class="fas fa-angle-down float-right down-icon pt-2 text-rampver"
+                                            style="font-size: 175%;"></i></b>
+                                </button>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="card-body gs">
+                                    <p> If it’s your first time to invest, we recommend investing in products (ie:
+                                        Mutual Funds) that are actively managed, liquid and diversified. We are
+                                        delighted to inform you that Rampver is partnered with the best mutual fund
+                                        providers in the country.
+                                    </p>
+                                    <p> To learn more and know which Mutual Fund is right for you, please fill out
+                                        this <a
+                                            href="https://rampver.com/inquire/campaign.html?id=NHPFAQ-invest">form</a>
+                                        or contact us at <a href="mailto:info@rampver.com">info@rampver.com</a>. An
+                                        account officer
+                                        will reach
+                                        out to you through email within 1-2 business days.
+                                    </p>
+                                    <p> The account officer will guide you through the process of choosing the right
+                                        Mutual Fund product based on your risk profile, time horizon, financial
+                                        needs and other goals. Once you have decided, you simply need to submit a
+                                        few requirements before you can proceed to funding your investment. Your
+                                        account officer will update you with the status of your investment
+                                        application within 1-2 business days.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <button class="faq-btn btn btn-link row d-flex justify-content-start"
+                                    data-toggle="collapse" data-target="#collapseThree" aria-expanded="true"
+                                    aria-controls="collapseThree">
+                                    <img src="./img/faq/insurance.png" class="lazyload faq-icons mr-2 d-none d-sm-block"
+                                        alt="">
+                                    <h4 class="text-rampver gsBold ml-4 pt-2 d-none d-md-block mr-0 pr-0">How to
+                                        apply for
+                                        insurance?</h4>
+                                    <h5 class="text-rampver gsBold ml-2 pt-2 d-md-none mr-0 pr-0">How to apply for
+                                        insurance?
+                                    </h5>
+                                    <b><i class="fas fa-angle-down float-right down-icon pt-2 text-rampver"
+                                            style="font-size: 175%;"></i></b>
+                                </button>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p class="gs">Getting insurance, whether life insurance, travel insurance,
+                                        motorcar
+                                        insurance, or any type of protection product is easier than ever! Rampver is
+                                        partnered with the most stable insurance providers in the country.
+                                        <p class="gs">To learn more about insurance or request for a free quotation,
+                                            please
+                                            fill out this <a
+                                                href="https://rampver.com/inquire/campaign.html?id=NHPFAQ-insure">form</a>
+                                            or contact us at <a href="mailto:info@rampver.com">info@rampver.com</a>. An
+                                            account
+                                            officer will reach out to you through email within 1-2 business days.
+                                            <p class="gs">The account officer will guide you through the process of
+                                                applying
+                                                and choosing the right product based on your budget, health
+                                                condition and needs. Please note that there are insurance products
+                                                that may require you to pay for policy issuances. For claims, you
+                                                may simply reach out to your account officer who will guide you
+                                                throughout the filing process.
+                                            </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <button class="faq-btn btn btn-link row d-flex justify-content-start"
+                                    data-toggle="collapse" data-target="#collapseFour" aria-expanded="true"
+                                    aria-controls="collapseFour">
+                                    <img src="./img/faq/fee.png" class="lazyload faq-icons mr-2 d-none d-sm-block"
+                                        alt="">
+                                    <h4 class="text-rampver gsBold ml-4 pt-2 d-none d-md-block">What are the fees?
+                                    </h4>
+                                    <h5 class="text-rampver gsBold ml-2 pt-2 d-md-none">What are the fees?</h5>
+                                    <b><i class="fas fa-angle-down float-right down-icon pt-2 text-rampver"
+                                            style="font-size: 175%;"></i></b>
+                                </button>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p class="gs"><span style="color:#124735" class="gsBold">
+                                            As part of Rampver’s noble mission and financial advocacy, Rampver doesn’t
+                                            charge clients extra for its services!</span> The fees would be the same if
+                                        you
+                                        avail of any product directly from our partners.</p>
+                                    <p class="gs">Please note that fees being charged by the product providers
+                                        may vary
+                                        depending on the type of product or service. For more information,
+                                        kindly contact us at <a href="mailto:info@rampver.com">info@rampver.com</a>
+                                        and an account
+                                        officer will reach out to you through email within 1-2 business days.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <button class="faq-btn btn btn-link row d-flex justify-content-start"
+                                    data-toggle="collapse" data-target="#collapseFive" aria-expanded="true"
+                                    aria-controls="collapseFive">
+                                    <img src="./img/faq/redeem.png" class="lazyload faq-icons mr-2 d-none d-sm-block"
+                                        alt="">
+                                    <h4 class="text-rampver gsBold ml-4 pt-2 d-none d-md-block mr-0 pr-0">How to
+                                        redeem my investments?</h4>
+                                    <h5 class="text-rampver gsBold ml-2 pt-2 d-md-none mr-0 pr-0">How to redeem?
+                                    </h5>
+                                    <b><i class="fas fa-angle-down float-right down-icon pt-2 text-rampver"
+                                            style="font-size: 175%;"></i></b>
+                                </button>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                                data-parent="#accordion">
+                                <div class="card-body">
+                                    <p class="gs">Clients can conveniently redeem their Mutual Fund investments at
+                                        any business
+                                        day. You can simply reach out to your account officer who will guide and
+                                        assist you with the necessary steps or you may also check the <a
+                                            href="https://rampver.com/support/forms.html">Forms and
+                                            Requirements</a> section of our website to know the complete
+                                        requirements.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <br>
+                    <div class="text-center">
+                        <p class="gs font-italic text-white">Got more questions?</p>
+                    </div>
+                    <p id="outline-btn" class="text-center">
+                        <a href="https://rampver.com/inquire/campaign.html?id=NHPFAQ-getstarted" class="btn btn-lg gsBold white-button"
+                        style="background-color: #ffffff; color:#124735">Inquire now!</a>
+                    </p>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <script>
+            $('.faq-btn').click(function () {
+                $(this).find('i').toggleClass('fas fa-angle-up fas fa-angle-down')
+            });
+        </script>
+        <!-- end FAQs -->
+        <!-- footer -->
+        <span id="footerSet"></span>
+        <script src="../neo-components/footer.js"></script>
+        <!-- footer -->
+
+        <!-- cookie consent -->
+        <div id="cookieconsent" class="gs"></div>
+        <link rel="stylesheet" href="../offers/mutual-funds/dependencies/cookieconsent.min.css" />
+        <script src="../offers/mutual-funds/dependencies/cookieconsent.min.js"></script>
+        <!-- cookie consent -->
+
+        <!-- Essential JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+        <!-- Essential JS -->
+
+        <!-- lazy load images and Youtube embed -->
+        <script src="../neo-dependencies/lazysizes.min.js"></script>
+        <script src="../neo-dependencies/vanilla-lazyload.min.js"></script>
+        <!-- lazy load images and Youtube embed -->
+
+        <!-- Marketing JS -->
+        <script src="//instant.page/5.1.1" type="module"
+            integrity="sha384-MWfCL6g1OTGsbSwfuMHc8+8J2u71/LA8dzlIN3ycajckxuZZmF+DNjdm7O6H3PSq"></script>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDNB9LX" height="0" width="0"
+                style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <!-- Marketing JS -->
+        <script>
+            $(document).ready(function () {
+                $('.carousel').carousel({
+                    interval: 4000
+                })
+            });
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+        </script>
+</body>
+
+</html>
