@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#124735" />
+    <meta name="title" content="Rampver Financials | Fund Details" />
+    <meta name="description"
+        content="Find the best Mutual Fund investments for as low as ₱1,000 with Rampver Financials. Largest mutual fund distrubutor in the Philippines." />
+    <meta property="og:title" content="Mutual Fund Investments | Rampver Financials" />
+    <meta property="og:description" content="Find the best Mutual Fund investments for as low as ₱1,000!" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="https://i.ibb.co/3k60mhS/specific.png" />
+    <meta property="og:site_name" content="Rampver Financials" />
+    <meta property="og:type" content="article" />
+    <title>Rampver Financials | Invest in Mutual Funds today!</title>
+    <script src="/cdn-cgi/apps/head/L9u0tY-17jUFOS5obflI58gJyRo.js"></script>
+    <link rel="icon" href="../img/favicon.png" type="image/png" sizes="16x20" />
+    <link rel="stylesheet" href="../dependencies/bootstrap.min.css" />
+    <link rel="stylesheet" src="../styles/style.css" href="../styles/style.css" />
+    <style>
+        .videoWrapper {
+            position: relative;
+            padding-bottom: 56.25%;
+            /* 16:9 */
+            height: 0;
+        }
+
+        .videoWrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    <script type="text/javascript" src="../dependencies/jquery.min.js"></script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js',
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PG4287G');
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+
+<body data-instant-intensity="viewport">
+    <!-- navbar -->
+    <div id="navbarSet" class="sticky-top"></div>
+    <script src="../../../neo-components/navbar.js"></script>
+    <!-- navbar -->
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-8 col-md-6 col-sm-12">
+                <div class="pl-4 pr-4">
+                    <div class="text-center">
+                        <img id="fundLogo" class="lazyload img-fluid text-center mb-1" alt="" style="width:200px">
+                    </div>
+                    <h2 class="gsBold text-rampver text-center font-weight-bolder" id="fundtitle" "></h2>
+                    <br />
+                    <p class=" text-center">
+                        <img id="imageurl" class="lazyload detailimg rounded" />
+                        </p>
+
+                        <!-- share via QR Code -->
+                        <div id="shareQR_indivFund" class="mt-3 d-none"></div>
+                        <script src=" ../components/shareQR_indivFund.js"> </script>
+                        <!-- share via QR Code -->
+
+                        <div class="d-flex mt-3">
+                            <p class=" claimHeader">Price Per Share:</p>
+                            &nbsp;&nbsp;
+                            <p class="claimHeader" id="navps"></p>
+                        </div>
+                        <div class="d-flex">
+                            <p class=" claimHeader">Year-to-Date (YTD):</p>
+                            &nbsp;&nbsp;
+                            <p class="font-weight-bold claimHeader" id="ytdtop"></p>
+                        </div>
+                        <div class="mt-4">
+                            <h5 class=" claimHeader">Fund Preview</h5>
+                            <hr />
+                            <p id="introduction" class="text-justify gs"></p>
+                            <p id="description" class="text-justify gs"></p>
+                        </div>
+                        <br />
+                        <div ">
+                        <h5 class=" claimHeader">Fund Suitability</h5>
+                            <hr />
+                            <p class="claimHeader">This fund is for you if:</p>
+                            <div class="d-flex">
+                                <i class="fas fa-check-circle claimHeader mr-3 mt-2"></i>
+                                <p id="ffy1" class="text-justify gs"></p>
+                            </div>
+                            <div class="d-flex">
+                                <i class="fas fa-check-circle claimHeader mr-3 mt-2"></i>
+                                <p id="ffy2" class="text-justify gs"></p>
+                            </div>
+                            <div class="d-flex">
+                                <i class="fas fa-check-circle claimHeader mr-3 mt-2"></i>
+                                <p id="ffy3" class="text-justify gs"></p>
+                            </div>
+                        </div>
+                </div>
+                <br />
+                <div class="container">
+
+                    <!-- video div -->
+                    <div class="videoWrapper mb-3" id="videoWrapper">
+                        <iframe id="vidLink" width="100%" height="auto" src="" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <!-- video div -->
+                    <br>
+                    <br>
+                    <h5 class=" claimHeader">Fund Details</h5>
+                    <br />
+                    <table class="table table-hover">
+                        <tr>
+                            <td>
+                                <p class="claimHeader">Mutual Fund Type</p>
+                            </td>
+                            <td>
+                                <p id="type" class="gs"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="claimHeader">Fund Manager</p>
+                            </td>
+                            <td>
+                                <p id="fundmanagername" class="gs"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="claimHeader">Year-to-Date Return</p>
+                            </td>
+                            <td>
+                                <p id="ytd" class="gs"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="claimHeader">Risk Profile</p>
+                            </td>
+                            <td>
+                                <p id="riskprofile" class="gs"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="claimHeader">Currency</p>
+                            </td>
+                            <td>
+                                <p id="currency" class="gs"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="claimHeader">Minimum Initial Investment</p>
+                            </td>
+                            <td>
+                                <p id="initial" class="gs"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="claimHeader">Minimum Additional Investment</p>
+                            </td>
+                            <td>
+                                <p id="additional" class="gs"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="claimHeader">
+                                <p class="claimHeader">Recommended length of stay</p>
+                            </td>
+                            <td>
+                                <p id="timehorizon" class="gs"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="claimHeader">Inception Date</p>
+                            </td>
+                            <td>
+                                <p id="inception" class="gs"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="claimHeader">Management Fee</p>
+                            </td>
+                            <td>
+                                <p id="managementfee" class="gs"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="claimHeader">Entry Fee Range</p>
+                            </td>
+                            <td>
+                                <p id="salesload" class="gs"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="claimHeader">Holding Period</p>
+                            </td>
+                            <td>
+                                <p id="holdingperiod" class="gs"></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="claimHeader">Early Redemption Fee</p>
+                            </td>
+                            <td>
+                                <p id="exitfee" class="gs"></p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <!-- HIGHSTOCKS -->
+                <!-- <div class="container mt-3 mb-2">
+                    <div id="navChart" style="height: 400px; min-width: 310px;"></div>
+                </div> -->
+                <!-- HIGHSTOCKS -->
+                <br />
+                <!-- HIGHCHART-->
+                <!-- <div class="mb-3">
+                    <div id="assetAllocation" style="height: 350px; min-width: 290px;"></div>
+                </div> -->
+                <!-- HIGHCHART-->
+                <br>
+                <div class="container">
+                    <h4 class=" claimHeader text-center"> Fund Resources</h4>
+                    <ul class="mt-3">
+                        <li class="" style="list-style-type: none;">
+                            <h6 class="claimHeader">
+                                <a href="" id="prospectuslink" class="claimHeader" target="_blank">Mutual Fund
+                                    Prospectus</a>
+                            </h6>
+                        </li>
+                        <li class="" style="list-style-type: none;">
+                            <h6 class="claimHeader">
+                                <a href="" id="ffslink" class="claimHeader" target="_blank">Latest Fund Fact Sheet</a>
+                            </h6>
+                        </li>
+                        <li class="" style="list-style-type: none;">
+                            <h6 class="claimHeader">
+                                <a id="forms" href="../support/forms.html" class="claimHeader">Application Forms and
+                                    Guidelines</a>
+                            </h6>
+                        </li>
+                        <li class="" style="list-style-type: none;">
+                            <h6 class="claimHeader">
+                                <a href id="soalink" class="claimHeader" data-toggle="modal"
+                                    data-target="#soarequest">Statement of Account Request</a>
+                            </h6>
+                        </li>
+                    </ul>
+                </div>
+
+                <br>
+                <!-- panel FAQS -->
+
+                <div class="">
+                    <h5 class="claimHeader text-center">Frequently Asked Questions</h5>
+                    <br>
+                    <!-- panel start -->
+                    <div class="panel-group" id="accordion">
+
+                        <!-- panel grp 1 -->
+                        <div class="panel panel-default border rounded">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <h6 data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                                        class="claimHeader text-left ml-3 mx-2">How much will I earn if I invest in
+                                        mutual
+                                        funds? Are the returns guaranteed?</h6>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in">
+                                <div class="panel-body mx-3 gs">
+                                    <hr>
+                                    <p class="text-justify gs mx-3">
+                                        <p>
+                                            Mutual funds are NOT fixed-income investments and therefore do not pay
+                                            guaranteed return.
+
+                                            Mutual funds are invested in stocks or corporations issued by the government
+                                            where prices differ daily. As a result, the value of your investment also
+                                            fluctuates depending on the performance of its underlying instruments.
+
+                                            While funds’ earnings are not fixed average of 6-18% a year, the potential
+                                            for investor to earn is higher.
+                                        </p>
+                                    </p>
+                                    <p class="text-justify gs px-3">
+                                        <p>
+                                            Mutual Funds are well-diversified as it is invested in a basket of
+                                            securities.
+
+                                            Historically, mutual funds outperformed traditional time deposit placements
+                                            or short-term money-market funds.
+                                        </p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- panel grp 1 -->
+                        <!-- panel grp 2 -->
+                        <div class="panel panel-default border rounded mt-1">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <h6 data-toggle="collapse" data-parent="#accordion" href="#collapse2"
+                                        class="claimHeader text-left ml-3 mx-2">How long is the maturity period for
+                                        mutual
+                                        funds?</h6>
+                                </h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse in">
+                                <div class="panel-body  mx-3 gs">
+                                    <hr>
+                                    <p class="text-justify gs px-3">
+                                        <p>
+                                            Mutual funds do not have maturity periods. This means that the shareholders
+                                            can actually sell their shares in any banking day.
+                                        </p>
+                                    </p>
+                                    <p class="text-justify gs px-3">
+                                        <p>
+                                            Most mutual funds, however, charge exit fees for short-term investors and it
+                                            varies from fund to fund. Normally less than 6 months.
+                                        </p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- panel grp 2 -->
+                        <!-- panel grp 3 -->
+                        <div class="panel panel-default border rounded mt-1">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <h6 data-toggle="collapse" data-parent="#accordion" href="#collapse3"
+                                        class="claimHeader text-left ml-3 mx-2">Are mutual fund investments covered by
+                                        the
+                                        PDIC?</h6>
+                                </h4>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse in">
+                                <div class="panel-body  mx-3 gs">
+                                    <hr>
+                                    <p class="text-justify gs px-3">
+                                        <p>
+                                            No. A mutual fund is not a deposit product; therefore, it does not need to
+                                            be covered by the PDIC. However, mutual fund shareholders are entitled to
+                                            their proportional share in the total assets of the fund.
+                                        </p>
+                                    </p>
+                                    <p class="text-justify gs px-3">
+                                        <p>
+                                            The PDIC on the other hand, can only insure up to P500, 000.00 of your total
+                                            deposits with a bank and not your entire investment amount. Moreover, mutual
+                                            funds are liquid instruments as these are invested in marketable securities.
+                                        </p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- panel grp 3 -->
+                        <!-- panel grp 4 -->
+                        <div class="panel panel-default border rounded mt-1">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <h6 data-toggle="collapse" data-parent="#accordion" href="#collapse4"
+                                        class="claimHeader text-left ml-3 mx-2">Can I lose money in mutual funds? Is my
+                                        investment secured?</h6>
+                                </h4>
+                            </div>
+                            <div id="collapse4" class="panel-collapse collapse in">
+                                <div class="panel-body mx-3 gs">
+                                    <hr>
+                                    <p class="text-justify gs px-3">
+                                        <p>
+                                            As with any investment instrument, investing in mutual funds involve a
+                                            certain amount of risk. Stock and bond prices go up and down daily so does
+                                            the value of your mutual fund investments.
+
+                                            Depending on market conditions, there may be periods when the value of your
+                                            investment can be lower than the actual amount that you invested.—“paper
+                                            loss”. But unless the investor redeems these shares, these paper losses will
+                                            not be realized.
+                                        </p>
+                                    </p>
+                                    <p class="text-justify gs px-3">
+                                        <p>
+                                            Additionally, there are ways in which fund managers apply investment
+                                            strategies in order to seize opportunities and avoid losses, and while there
+                                            are risks in mutual fund investing, the returns can also be very rewarding
+                                            most especially in the long-run.
+                                        </p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- panel grp 4 -->
+                        <!-- panel grp 5 -->
+                        <div class="panel panel-default border rounded mt-1">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <h6 data-toggle="collapse" data-parent="#accordion" href="#collapse5"
+                                        class="claimHeader text-left ml-3 mx-2">Will my investment lapse or expire if I
+                                        cannot invest monthly?</h6>
+                                </h4>
+                            </div>
+                            <div id="collapse5" class="panel-collapse collapse in">
+                                <div class="panel-body mx-3 gs">
+                                    <hr>
+                                    <p class="text-justify gs px-3">
+                                        <p>
+                                            No. Mutual Funds do not have lapsing periods or expiry dates. It does not
+                                            have a strict investing schedule that you must follow. You can invest
+                                            monthly, quarterly, annually — it all depends on the investor when he/she
+                                            will invest.
+                                        </p>
+                                    </p>
+                                    <p class="text-justify gs px-3">
+                                        <p>
+                                            Though not required, Rampver recommends that investors should top-up their
+                                            investments regularly to capture different market prices, thus maximizing
+                                            the earnings potential of their investment. This also forges the discipline
+                                            of investing regularly.
+                                        </p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- panel grp 5 -->
+
+                    </div>
+                    <!-- //panel end -->
+                </div>
+                <!-- panel FAQS -->
+
+                <!-- SOA Modal -->
+                <div id="indivSoaSet"></div>
+                <script src="../components/indivSoa.js"></script>
+                <!-- SOA Modal -->
+                <br />
+            </div>
+        </div>
+    </div>
+
+    <!-- Rampver Online Pill Icon -->
+    <div>
+        <a href="https://app.rampver.com/" target="_blank">
+            <img src="../img/rfo-icon.png" id="rfoReady" style="width: 180px;" class="d-none ml-0 lazyload">
+        </a>
+    </div>
+   
+    <!-- Rampver Online Pill Icon -->
+
+
+    <!-- NAV gold BTN Change -->
+    <script>
+        document.querySelector("#navGoldLG").remove();
+        document.querySelector("#navGoldSM").remove();
+    </script>
+    <script src="../components/navGoldFundIndLG.js"></script>
+    <script src="../components/navGoldFundIndSM.js"></script>
+    <!-- NAV gold BTN Change -->
+
+    <!-- footer -->
+    <span id="footerSet"></span>
+    <script src="../../../neo-components/footer.js"></script>
+    <!-- footer -->
+
+    <!-- cookie consent -->
+    <div id="cookieconsent"></div>
+    <link rel="stylesheet" href="../dependencies/cookieconsent.min.css" />
+    <script src="../dependencies/cookieconsent.min.js"></script>
+    <script src="../js/cookieconsent.js"></script>
+    <!-- cookie consent -->
+
+    <!-- HIGHSTOCKS -->
+    <script src="../dependencies/highstocks/highstock.js"></script>
+    <script src="../dependencies/highstocks/data.js"></script>
+    <script src="../dependencies/highstocks/exporting.js"></script>
+    <script src="../dependencies/highstocks/accessibility.js"></script>
+    <!-- HIGHSTOCKS -->
+
+    <script src="../js/validator.js"></script>
+    <script src="../js/urlparser.js"></script>
+    <script src="../js/hideVid.js"></script>
+    <script src="../dependencies/lazysizes.min.js"></script>
+
+    <!-- rampver online pill activator -->
+    <script src="../js/rfoActivator.js"></script>
+    <!-- rampver online pill activator -->
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PG4287G" height="0" width="0"
+            style="display: none; visibility: hidden;"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <script src="../dependencies/popper.min.js"></script>
+    <script src="../dependencies/bootstrap.min.js"></script>
+    <script src="../dependencies/font-awesome.js"></script>
+    <script src="//instant.page/5.1.0" type="module"
+        integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
+</body>
+
+</html>
