@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="theme-color" content="#124735" />
+	<meta name="title" content="Rampver Financials: Your Partner in Wealth Creation" />
+	<meta name="description"
+		content="Find the best Mutual Fund investments for as low as ₱1,000 with Rampver Financials. Largest mutual fund distrubutor in the Philippines." />
+	<meta property="og:title" content="Mutual Fund Investments | Rampver Financials" />
+	<meta property="og:description" content="Find the best Mutual Fund investments for as low as ₱1,000!" />
+	<meta property="og:url" content="" />
+	<meta property="og:image" content="https://i.ibb.co/3k60mhS/specific.png" />
+	<meta property="og:site_name" content="Rampver Financials" />
+	<meta property="og:type" content="article" />
+	<title>Rampver Financials: Your Partner in Wealth Creation</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" src="../offers/mutual-funds/styles/style.css" href="../offers/mutual-funds/styles/style.css">
+	<link rel="icon"
+		href="https://res.cloudinary.com/rampver-financials/image/upload/v1666923361/neo-website/components/favicon.png"
+		type="image/png" sizes="16x20">
+	<title>Rampver Financials | Homepage</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="socialLink.js"></script>
+
+	<!-- Google Tag Manager -->
+	<script>
+		(function (w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start': new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-PG4287G');
+	</script>
+	<!-- End Google Tag Manager -->
+	<script src="../offers/mutual-funds/dependencies/lazysizes.min.js"></script>
+</head>
+
+<body data-instant-intensity="viewport">
+	<!-- navbar -->
+	<div id="navbarSet" class="sticky-top"></div>
+	<script src="../neo-components/navbar.js"></script>
+	<!-- navbar -->
+	<br>
+	<div class="container">
+
+		<div class="mx-auto">
+			<div class="px-2 mx-auto" style="max-width: 600px;">
+				<br>
+
+				<!-- served via api -->
+				<div class="px-3 gs">
+					<img alt="" id="imageTarget" class="mx-auto previewimg lazyload rounded mb-4">
+					<h3 class="gsBold text-rampver font-weight-bolder mt-3 text-center" id="pageTitle"></h3>
+					<br>
+					<p id="firstBlockTarget" class="text-justify"></p>
+					<p id="secondBlockTarget" class="text-justify"></p>
+					<p id="thirdBlockTarget" class="text-justify"></p>
+					<p id="fourthBlockTarget" class="text-justify"></p>
+					<br>
+				</div>
+				<!-- served via api -->
+
+				<!-- FORM PROPER -->
+				<form method="post" id="formTarget" class="px-3 gs">
+					<p class="font-weight-bold claimHeader text-center mb-3">Kindly fill out these fields to know more!
+					</p>
+					<hr>
+					<div style="display: none;">
+						<input type="hidden" name="_wpcf7" id="_wpcf7" />
+						<input type="hidden" name="_wpcf7_version" id="_wpcf7_version" />
+						<input type="hidden" name="_wpcf7_locale" value="en_US" />
+						<input type="hidden" name="_wpcf7_unit_tag" id="_wpcf7_unit_tag" />
+						<input type="hidden" name="_wpcf7_container_post" value="0" />
+					</div>
+					<input type="hidden" name="pageTitleValue" id="pageTitleValue" />
+					<input type="hidden" name="videoTitle" id="videoTitle" />
+					<input type="hidden" name="kolSource" id="kolSource" />
+					<input type="hidden" name="otherTags" id="otherTags" />
+					<div class="form-group">
+						<label for="salutation" class="claimHeader">Salutation*</label>
+						<select class="form-control" id="salutation" name="salutation" required>
+							<option selected="true" disabled="disabled" class="font-italic">(Choose one)</option>
+							<option value="Mr.">Mr.</option>
+							<option value="Ms.">Ms.</option>
+							<option value="Mrs.">Mrs.</option>
+							<option value="M.">M.</option>
+							<option value="Prefer not to say">Prefer not to say</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="fullname" class="claimHeader">Full Name*</label>
+						<input type="text" class="form-control" name="fullname" required placeholder="Full Name"
+							id="fullname" onkeyup="validatorFN()" />
+						<small class="d-none text-danger font-italic" id="errMsgFullName">Invalid input.</small>
+					</div>
+					<div class="form-group">
+						<label for="email" class="claimHeader">Email Address*</label>
+						<input type="email" class="form-control" name="email" required placeholder="Email Address"
+							id="email" onkeyup="validatorEmail()" />
+						<small class="d-none text-danger font-italic" id="errMsgEmail">Invalid input.</small>
+					</div>
+					<div class="form-group">
+						<label for="contact" class="claimHeader">Contact Number*</label>
+						<input type="number" class="form-control" required placeholder="Contact Number" name="contact"
+							id="contact" />
+					</div>
+					<div class="form-group">
+						<label for="product" class="claimHeader">Which Rampver product or service are you interested
+							in?*</label>
+						<select class="form-control" id="product" name="product" required>
+							<option selected="true" disabled="disabled" class="font-italic">(Choose one)</option>
+							<option value="Financial Planning/Consultation">Financial Planning/Consultation</option>
+							<option value="Mutual Funds">Mutual Funds</option>
+							<option value="Stock Trading">Stock Trading</option>
+							<option value="REITs">REITs</option>
+							<option value="Life Insurance">Life Insurance</option>
+							<option value="Healthcare Plans">Healthcare Plans</option>
+							<option value="Non-Life Insurance">Non-Life Insurance (Travel, Car, Motorcycle, Property,
+								etc.)</option>
+							<option value="Pre-Need">Pre-need/Memorial Plans</option>
+							<option value="Corporate Solutions">Corporate Solutions</option>
+							<option value="Others">Others</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label class="claimHeader" for="question">Any questions/message for us?
+						</label>
+						<br />
+						<textarea type="text" name="question" class="form-control" cols="30" rows="3"
+							placeholder="Your Message" id="message" onkeyup="validatorMessage()"></textarea>
+						<small class="d-none text-danger font-italic" id="errMsgMessage">Invalid input.</small>
+					</div>
+					<div class="form-check">
+						<input type="checkbox" class="form-check-input" name="consent" id="consent" required />
+						<small class="text-secondary font-italic form-check-label" for="consent">
+							I agree to receive regular updates, promotions, and
+							recommendations from Rampver Financials.
+							Visit
+							<a href="https://rampver.com/privacy">rampver.com/privacy</a>
+							for more info.
+						</small>
+					</div>
+					<div class="text-center mt-4 mb-4">
+						<input type="submit" id="trigger" value="Submit Details"
+							class="text-white btn rfbtn font-weight-bold btn-lg" onclick="submitDetails()" />
+						<br />
+						<img src="../offers/mutual-funds/img/preloader.gif" class="d-none" id="pulse-load"
+							style="width: 25%" alt="" />
+					</div>
+				</form>
+				<!-- FORM PROPER -->
+				<br>
+
+				<div class="mt-1">
+					<h4 class="claimHeader text-center mb-3">Share the good news!</h4>
+					<!-- share via QR Code -->
+					<div id="shareQR" class="text-center mt-2"></div>
+					<script src="../offers/mutual-funds/components/shareQR.js"></script>
+					<!-- share via QR Code -->
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<br>
+
+	<script>
+		document.querySelector("#navGoldLG").remove();
+		document.querySelector("#navGoldSM").remove();
+	</script>
+
+	<!-- footer -->
+	<span id="footerSet"></span>
+	<script src="../neo-components/footer.js"></script>
+	<!-- footer -->
+
+	<!-- cookie consent -->
+	<div id="cookieconsent"></div>
+	<link rel="stylesheet" href="../offers/mutual-funds/dependencies/cookieconsent.min.css" />
+	<script src="../offers/mutual-funds/dependencies/cookieconsent.min.js"></script>
+	<!-- cookie consent -->
+
+	<script src="../offers/mutual-funds/js/validator.js"></script>
+
+	<script>
+		function submitDetails() {
+			document.getElementById('pulse-load').classList.remove('d-none');
+			setTimeout(function submitDetails() {
+				document.getElementById('pulse-load').classList.add('d-none');
+			}, 15000);
+		}
+	</script>
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PG4287G" height="0" width="0"
+			style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
+	<!-- Essential JS -->
+	<script src="//instant.page/3.0.0" type="module" defer
+		integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+</body>
+
+</html>
